@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Study Group</title>
+
+  <!-- Integrasi HTML5 terhadap browser IE 8 kebawah -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Melakukan import terhadap assets eksternal css -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="./assets/stylesheets/index.css" />
+  
+
+  <!-- Melakukan import terhadap assets eksternal javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+  <script src="./assets/javascripts/index.js" defer></script>
+
+</head>
+<body>
+  <aside class="side-menu">
+    <ul class="menu">
+      <li class="menu-item menu-title">
+        <!-- <img src="./assets/images/ans.png" class="ans-img" alt="ans"> -->
+        <h1>Application <br>& Security</h1>
+      </li>
+      <li class="menu-item item-animate">
+        <a href="#home">Home</a>
+      </li>
+      <li class="menu-item item-animate">
+        <a href="#division">Division</a>
+      </li>
+      <li class="menu-item item-animate">
+        <a href="">WebDev</a>
+      </li>
+    </ul>
+  </aside>
+  <main class="main-menu">
+    <div class="big-box" id="home">
+      <h1 class="header-1">A&S Laboratory.</h1>
+      <h3 class="header-2">#BeSmartBeSecure</h3>
+      <div class="separator" id="header-separator"></div>
+    </div>
+    <article class="divisions" id="division">
+      <h1>The Division</h1>
+      <section class="division">
+        <div class="logo">
+          <img src="./assets/images/ids.svg" alt="">
+        </div>
+        <div class="division-desc">
+          <h4 class="title">IDS</h4>
+          <p class="desc">Intrusive Detection System</p>
+        </div>
+      </section>
+      <section class="division">
+        <div class="logo">
+          <img src="./assets/images/web.svg" alt="">
+        </div>
+        <div class="division-desc">
+          <h4 class="title">Web</h4>
+          <p class="desc">Web Development</p>
+        </div>
+      </section>
+      <section class="division">
+        <div class="logo">
+          <img src="./assets/images/voip.svg" alt="">
+        </div>
+        <div class="division-desc">
+          <h4 class="title">VoIP</h4>
+          <p class="desc">Voice over Internet Protocol</p>
+        </div>
+      </section>
+      <section class="division">
+        <div class="logo">
+          <img src="./assets/images/gametech.svg" alt="">
+        </div>
+        <div class="division-desc">
+          <h4 class="title">GameTech</h4>
+          <p class="desc">Game Technology</p>
+        </div>
+      </section>
+      <section class="division">
+        <div class="logo">
+          <img src="./assets/images/gis.svg" alt="">
+        </div>
+        <div class="division-desc">
+          <h4 class="title">GIS</h4>
+          <p class="desc">Intrusive Detection System</p>
+        </div>
+      </section>
+      <section class="division">
+        <div class="logo">
+          <img src="./assets/images/video.svg" alt="">
+        </div>
+        <div class="division-desc">
+          <h4 class="title">IV</h4>
+          <p class="desc">Interactive Video</p>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
